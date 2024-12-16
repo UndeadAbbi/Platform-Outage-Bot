@@ -1,4 +1,4 @@
-# Platform Outage Checker Bot
+# Platform Outage Checker Bot (WIP)
 
 ## Overview
 The **Platform Outage Checker Bot** is a Python-based web application that monitors the health status of multiple services (Azure, Azure DevOps, GitHub, O365, ReTool, Salesforce, Slack, and Snowflake) and integrates with Slack for real-time notifications. 
