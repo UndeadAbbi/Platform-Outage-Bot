@@ -79,22 +79,22 @@ platform-outage-checker/
 ├── runtime.txt
 ```
 ## Architecture
-- Azure Web App Resource: https://portal.azure.com/?feature.msaljs=false#@affinaquest.com/resource/subscriptions/6208a8ff-9ec7-4320-b14a-f89dabb55bf1/resourcegroups/rg-outage-bot/providers/Microsoft.Web/sites/app-i-outage-bot/appServices
-    - Domain: app-i-outage-bot-gpbeeth4huazdhec.eastus2-01.azurewebsites.net
-    - SCM: app-i-outage-bot-gpbeeth4huazdhec.scm.eastus2-01.azurewebsites.net
+- Azure Web App Resource: 
+    - Domain: 
+    - SCM: 
     - OS: Linux
     - Runtime: Python-3.12
     - SKU: B1
 
 - Github: https://github.com/AbbiGrey/Platform-Outage-Checker
 
-- Azure Storage: https://portal.azure.com/?feature.msaljs=false#@affinaquest.com/resource/subscriptions/6208a8ff-9ec7-4320-b14a-f89dabb55bf1/resourceGroups/rg-outage-bot/providers/Microsoft.Storage/storageAccounts/saioutagebot/overview
+- Azure Storage: 
     - Active Event Table: EventTickets
     - Resolved Event Table: ResolvedEvents
     
-- App Registration: https://portal.azure.com/?feature.msaljs=false#view/Microsoft_AAD_RegisteredApps/ApplicationMenuBlade/~/Overview/appId/461c3430-9588-42e7-b9c5-07b6a3fd8565/isMSAApp~/false
-    - Client ID: 461c3430-9588-42e7-b9c5-07b6a3fd8565
-    - Object ID (Enterprise App): 77d34da8-0a2b-43f7-af99-f4af16c47879
+- App Registration: 
+    - Client ID: 
+    - Object ID (Enterprise App): 
 
 ## Endpoints
 - ADO: https://status.dev.azure.com/_apis/status/health?geographies=US&api-version=7.2-preview.1
